@@ -72,7 +72,6 @@ p {
 
 .me {
     margin-top: 100px;
-    /* background: url("file:///C:/Users/Korisnik/Desktop/Kursevi/Web%20Development/Personal%20Website/img/cool-background.svg"); */
 }
 
 .me h1 {
@@ -236,13 +235,23 @@ p {
     }
 
     .skill-row {
-        position: relative;        
         text-align: center;
+        padding: 0px;
         width: 70%;
+    }
+
+    .skill-row  h4 {
+        text-align: center;
+    }
+
+    .skill-row  p {
+        text-align: center;
     }
 
     .skills img {
         float: none;
+        text-align: center;
+        margin: 0px;
         margin-bottom: 30px;
     }
 }
