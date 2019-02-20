@@ -52,6 +52,7 @@ p {
 
 .container {
     position: relative;
+	width: 80%;
     margin-top: 100px;
     padding: 10px;
     background-color: #fff;
@@ -155,7 +156,7 @@ p {
 
 .intro {
     color: #fff;
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 
@@ -163,7 +164,7 @@ p {
     position: relative;
     margin: 50px auto 50px auto;
     padding: 50px;
-    top: 230px;
+    top: 170px;
     text-align: center;
 }
 
@@ -223,15 +224,20 @@ p {
         width: 100%;
     }
 
+	.intro {
+		text-align: center;
+		width: 80%;
+	}
+
     .container {
         width: 80%;
-        top: 350px;
+        top: 170px;
     }
 
     .contact-me {
         position: relative;
         height: 300px;
-        top: 300px;
+        top: 240px;
     }
 
     .skill-row {
@@ -256,9 +262,13 @@ p {
     }
 }
 
-@media (min-width: 570px){
-    .container {
-        width: 80%;
-        top: 300px;
-    }
+@media (max-width: 570px){
+	.intro {
+		text-align: center;
+		width: 80%;
+	}
+	.container {
+		top: 230px;
+	}
 }
+
