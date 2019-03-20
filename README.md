@@ -1,4 +1,4 @@
-# Website
+# Personal Website
 
 If something doesn't work, just clear browsing data.
 
