@@ -23,3 +23,13 @@ $window.on("scroll", function () {
         backBtn.removeClass("button-top-visible");
     }
 });
+
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+
+function myFunction1() {
+    var popup = document.getElementById("myPopup1");
+    popup.classList.toggle("show");
+}
