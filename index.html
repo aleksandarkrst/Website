@@ -53,7 +53,6 @@
                 </ul>
             </div>
 
-
         </nav>
 
         <div class="me">
@@ -72,7 +71,7 @@
             <h3><strong>Who am I?</strong></h3>
             <p class="intro">Based in Belgrade, Serbia, I'm studying Information Systems
                 and Technologies at the Faculty of Organizational Sciences. I love coffee, enjoy reading books, going
-                out with friends and traveling. By the way, projects are coming soon.</p>
+                out with friends and traveling. Projects coming soon.</p>
         </div>
 
     </div>
@@ -83,14 +82,23 @@
         <div class="skills">
             <h3><strong>What do I do?</strong></h3>
             <div class="skill-row">
-                <img class="code-img" src="img/computer.png" alt="">
-                <h4>Marketing & Entrepreneurship</h4>
-                <p>I want to tell the story through the product or service you offer. Let's make something beautiful.</p>
+                <img class="mark-img" src="img/computer.png" alt="">
+                <div class="popup" onclick="myFunction()">
+                    <h4>Marketing & Entrepreneurship</h4>
+                    <span class="popuptext" id="myPopup">
+                        I want to tell the story through your product or service.
+                    </span>
+                </div>
+                <!-- Ovde ce sve da se izbrise i da se napravi jedan popup kada se klikne na M&E -->
             </div>
             <div class="skill-row">
-                <img class="mark-img" src="img/social-media.png" alt="">
-                <h4>Web development</h4>
-                <p>I like to keep it simple. If you need something taken care of, I'm your guy.</p>
+                <img class="code-img" src="img/social-media.png" alt="">
+                <div class="popup" onclick="myFunction1()">
+                    <h4>Web development</h4>
+                    <span class="popuptext" id="myPopup1">
+                        I like to keep it simple. If you need something taken care of, I'm your guy.
+                    </span>
+                </div>
             </div>
         </div>
     </div>
